@@ -43,6 +43,8 @@ C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\androi
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\css\style.css \
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\img\ionic.png \
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\js\app.js \
+C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\js\AttendeesController.js \
+C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\js\CheckinController.js \
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\js\manageRippleController.js \
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\lib\angular-1.2.16 \
 C:\Users\ewong\Desktop\phonegap\phoneGapProjects\SampleTemplate\platforms\android\assets\www\lib\ionic \

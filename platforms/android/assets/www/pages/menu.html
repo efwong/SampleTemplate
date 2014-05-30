@@ -20,8 +20,9 @@
         </ion-header-bar>
         <ion-content>
             <ul class="list">
-                <a href="#/event/check-in" class="item" menu-close>Check-in</a>
-                <a href="#/event/attendees" class="item" menu-close>Attendees</a>
+                <li ng-repeat="app in AppList" >
+                    <a href="{{app.href}}" class="item" menu-close><i class="{{app.icon}} + side-menu-icon"></i> {{app.name}}</a>
+                </li>
             </ul>
         </ion-content>
     </ion-side-menu>
