@@ -1,5 +1,5 @@
 //var mainApp = angular.module('mainApp', ['ionic', 'ManageRippleController', 'ngRoute']);
-var mainApp = angular.module('mainApp', ['ionic', 'ngRoute', 'attendeesApp', 'checkinApp'])
+var mainApp = angular.module('mainApp', ['ionic', 'ngRoute', 'attendeesApp', 'checkinApp', 'ringPoolApp'])
 
 .config(function ($stateProvider, $urlRouterProvider) {
 
@@ -34,16 +34,16 @@ var mainApp = angular.module('mainApp', ['ionic', 'ngRoute', 'attendeesApp', 'ch
                     controller: 'AttendeesCtrl'
                 }
             }
-        });
-    //.state('DugoutMenu.RingPool', {
-    //    url: '/ringpool',
-    //    views: {
-    //        'menuContent': {
-    //            templateUrl: 'pages/ringpool',
-    //            controller: 'RingPoolCtrl'
-    //        }
-    //    }
-    //})
+        })
+        .state('DugoutMenu.RingPool', {
+            url: '/ringpool',
+            views: {
+                'menuContent': {
+                    templateUrl: 'pages/ringpool.html',
+                    controller: 'RingPoolCtrl'
+                }
+            }
+        })
 
 
     $urlRouterProvider.otherwise('/menu/home'); //url Routing is sort of like how javascripts deals with using external controllers (eg. /AdOptimization/SomeMethod)
@@ -54,7 +54,7 @@ var mainApp = angular.module('mainApp', ['ionic', 'ngRoute', 'attendeesApp', 'ch
     $scope.AppList = [
         { name: 'Check-in', href: '#/menu/check-in', icon: 'ion-flash' },
         { name: 'Attendees', href: '#/menu/attendees', icon: 'ion-pie-graph' },
-        { name: 'Ring Pool', href: '#/menu/RingPool', icon: 'ion-ios7-telephone' }
+        { name: 'Ring Pool', href: '#/menu/ringpool', icon: 'ion-ios7-telephone' }
     ];
 
     $scope.attendees = [
